@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions - Abdullah Nawaz</title>
+    <meta name="description" content="Answers to common questions about accessibility testing, WCAG compliance, and working with Abdullah Nawaz, a professional accessibility consultant.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" aria-label="Abdullah Nawaz - Return to homepage">Abdullah Nawaz</a>
+            </div>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-controls="main-navigation" aria-expanded="false">
+                <span class="sr-only">Toggle</span>
+                <span class="hamburger"></span>
+            </button>
+            <nav id="main-navigation" aria-label="Main site navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="faq.html" aria-current="page"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="accessibility.html">Accessibility</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+        <div class="container">
+            <header>
+                <h1>Frequently Asked Questions</h1>
+                <p>Common questions about accessibility testing, compliance, and working with me. Don't see your question? <a href="contact.html" aria-label="Contact Abdullah Nawaz directly">Contact me directly</a>.</p>
+            </header>
+
+            <section class="faq-container" aria-labelledby="faq-list-heading">
+                <h2 id="faq-list-heading" class="sr-only">Questions and Answers</h2>
+                
+                <article class="faq-item card">
+                    <h3>
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1" id="faq-q-1">
+                            How is manual testing different from automated accessibility scanners?
+                            <span class="accordion-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="faq-answer-1" class="faq-answer" aria-hidden="true" aria-labelledby="faq-q-1">
+                        <p>Automated scanners are great for catching basic technical issues like missing alt text or color contrast problems—about 30% of accessibility barriers. However, they can't evaluate the actual user experience. Manual testing with real screen readers catches the remaining 70% of issues: navigation flow problems, unclear content structure, confusing form interactions, and other usability barriers that significantly impact real users.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item card">
+                    <h3>
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2" id="faq-q-2">
+                            What's included in your accessibility testing reports?
+                            <span class="accordion-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="faq-answer-2" class="faq-answer" aria-hidden="true" aria-labelledby="faq-q-2">
+                        <p>My reports include: prioritized list of accessibility barriers, detailed descriptions of how each issue affects users, specific remediation recommendations with code examples where applicable, <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> success criteria references, and screenshots/recordings demonstrating the problems. You'll also get follow-up support to clarify any recommendations.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item card">
+                    <h3>
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3" id="faq-q-3">
+                            How long does accessibility testing typically take?
+                            <span class="accordion-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="faq-answer-3" class="faq-answer" aria-hidden="true" aria-labelledby="faq-q-3">
+                        <p>Timeline depends on project scope. A typical website audit takes 1-2 weeks, while complex web applications may require 2-3 weeks. Mobile apps usually take 1-2 weeks. Document reviews are often completed within a few days. I'll provide a specific timeline estimate during our initial consultation.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item card">
+                    <h3>
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4" id="faq-q-4">
+                            Do you provide ongoing accessibility support?
+                            <span class="accordion-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="faq-answer-4" class="faq-answer" aria-hidden="true" aria-labelledby="faq-q-4">
+                        <p>Absolutely! I offer various ongoing support options: retainer arrangements for regular testing, accessibility consultation during development phases, and verification testing after you implement fixes. Many clients prefer ongoing partnerships to maintain accessibility as their products evolve.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item card">
+                    <h3>
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5" id="faq-q-5">
+                            Can you help with legal compliance requirements?
+                            <span class="accordion-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="faq-answer-5" class="faq-answer" aria-hidden="true" aria-labelledby="faq-q-5">
+                        <p>I provide <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1/2.2 Level <abbr title="Double A">AA</abbr> compliance auditing, and my reports document conformance levels with clear remediation roadmaps. <strong>However, please note that I am an accessibility consultant, not a lawyer, and therefore cannot provide legal advice or interpretations of legal statutes like the <abbr title="Americans with Disabilities Act">ADA</abbr> or Section 508. For legal guidance, please consult with a qualified attorney who specializes in disability law.</strong></p>
+                    </div>
+                </article>
+
+                <article class="faq-item card">
+                    <h3>
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-6" id="faq-q-6">
+                            What makes your testing more valuable than automated tools?
+                            <span class="accordion-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="faq-answer-6" class="faq-answer" aria-hidden="true" aria-labelledby="faq-q-6">
+                        <p>I'm a real user who depends on screen readers daily. I catch usability issues that tools miss: confusing navigation patterns, unclear content organization, frustrating form interactions, and subtle barriers that significantly impact user experience. Plus, I understand the difference between technical compliance and genuine usability.</p>
+                    </div>
+                </article>
+
+                <article class="faq-item card">
+                    <h3>
+                        <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-7" id="faq-q-7">
+                            How do you handle confidential or sensitive projects?
+                            <span class="accordion-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="faq-answer-7" class="faq-answer" aria-hidden="true" aria-labelledby="faq-q-7">
+                        <p>I'm happy to sign <abbr title="Non-Disclosure Agreements">NDAs</abbr> and work under confidentiality agreements. I understand that many projects involve sensitive information, and I maintain strict professional confidentiality standards. All testing can be conducted in secure environments according to your requirements.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="cta-section" aria-labelledby="cta-heading">
+                <h2 id="cta-heading">Still Have Questions?</h2>
+                <p>I'm happy to discuss your specific accessibility needs and answer any questions.</p>
+                <a href="contact.html" class="btn btn-primary" aria-label="Contact Abdullah Nawaz to discuss your accessibility needs">Get in Touch</a>
+            </section>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="current-year" aria-label="Current year">2025</span> Abdullah Nawaz - Professional Accessibility Consultant</p>
+                <p>Committed to creating inclusive digital experiences for everyone</p>
+                <nav aria-label="Footer navigation">
+                    <p>
+                        <a href="accessibility.html" class="footer-link-button">View Accessibility Statement</a> |
+                        <a href="privacy.html" class="footer-link-button">Privacy Policy</a> |
+                        <a href="terms.html" class="footer-link-button">Terms & Conditions</a>
+                    </p>
+                </nav>
+                <nav aria-label="Social media links">
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/abdullah-nawaz-627298344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" aria-label="Connect with Abdullah Nawaz on LinkedIn (opens in new tab)">
+                            LinkedIn
+                        </a>
+                        <a href="https://discord.gg/pK9kKNqT7c" target="_blank" rel="noopener noreferrer" aria-label="Join Abdullah Nawaz's Discord server (opens in new tab)">
+                            Discord
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

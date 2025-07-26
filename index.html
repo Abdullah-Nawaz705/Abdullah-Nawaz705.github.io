@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Nawaz - Professional Accessibility Consultant</title>
+    <meta name="description" content="Expert accessibility consultant offering manual screen reader testing, WCAG compliance audits, and strategic accessibility guidance. Over 10 years of real-world assistive technology experience. Based in the UK.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header role="banner">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" aria-label="Abdullah Nawaz - Return to homepage">Abdullah Nawaz</a>
+            </div>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-controls="main-navigation" aria-expanded="false">
+                <span class="sr-only">Toggle</span>
+                <span class="hamburger"></span>
+            </button>
+            <nav id="main-navigation" aria-label="Main site navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="faq.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="accessibility.html">Accessibility</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+        <div class="container">
+            <header class="hero-section">
+                <h1>Abdullah Nawaz</h1>
+                <p class="hero-title">Professional Accessibility Consultant & Screen Reader Expert</p>
+                <p class="hero-description">Based in the <abbr title="United Kingdom">UK</abbr>, I provide comprehensive manual accessibility testing using real assistive technologies (VoiceOver & <abbr title="NonVisual Desktop Access">NVDA</abbr>) to ensure your digital products are truly accessible and <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> compliant—not just technically, but genuinely usable by people with disabilities.</p>
+            </header>
+
+            <section class="credentials card" aria-labelledby="expertise-heading">
+                <h2 id="expertise-heading">Why Choose Real-World Expertise?</h2>
+                <p>I'm a blind Cybersecurity student with over a decade of daily screen reader experience. Unlike automated testing tools that catch only about 30% of accessibility issues, I provide authentic user testing that identifies the crucial 70% of problems that actually matter to your users.</p>
+                <p><strong>The difference?</strong> I don't just check if your site meets technical standards—I verify it provides an excellent user experience for people who depend on accessible technology every day.</p>
+            </section>
+
+            <aside class="testimonial card" aria-labelledby="quote-heading">
+                <h2 id="quote-heading" class="sr-only">Personal Philosophy</h2>
+                <blockquote>
+                    <p><strong>"Accessibility isn't just about compliance—it's about creating digital experiences that truly work for everyone. Every barrier removed is a user empowered."</strong></p>
+                    <cite>— Abdullah Nawaz, Accessibility Consultant</cite>
+                </blockquote>
+            </aside>
+
+            <section class="cta-section" aria-labelledby="cta-heading">
+                <h2 id="cta-heading">Ready to Make Your Digital Products Truly Accessible?</h2>
+                <p>Don't let accessibility barriers limit your audience or expose you to compliance risks. Let's work together to create inclusive digital experiences that work for everyone.</p>
+                <a href="contact.html" class="btn btn-primary" aria-label="Contact Abdullah Nawaz for your free consultation">Get Your Free Consultation</a>
+            </section>
+
+            <section class="contact-info card" aria-labelledby="contact-heading">
+                <h2 id="contact-heading">Get Started Today</h2>
+                <p>Whether you need comprehensive accessibility testing, <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> compliance auditing, or just want to discuss accessibility best practices, I'm here to help.</p>
+                
+                <div class="contact-details">
+                    <dl>
+                        <dt><strong>Email:</strong></dt>
+                        <dd><a href="mailto:abdullahnawaz1899@gmail.com" class="email-link" aria-label="Send email to Abdullah Nawaz">abdullahnawaz1899@gmail.com</a></dd>
+                        
+                        <dt><strong>Response time:</strong></dt>
+                        <dd>24-48 hours</dd>
+                        
+                        <dt><strong>Free consultation:</strong></dt>
+                        <dd>Always included</dd>
+                    </dl>
+                </div>
+                
+                <p><a href="contact.html" class="btn btn-success" aria-label="Contact Abdullah Nawaz now to get started">Contact Me Now</a></p>
+            </section>
+        </div>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="current-year" aria-label="Current year">2025</span> Abdullah Nawaz - Professional Accessibility Consultant</p>
+                <p>Committed to creating inclusive digital experiences for everyone</p>
+                <nav aria-label="Footer navigation">
+                    <p>
+                        <a href="accessibility.html" class="footer-link-button">View Accessibility Statement</a> |
+                        <a href="privacy.html" class="footer-link-button">Privacy Policy</a> |
+                        <a href="terms.html" class="footer-link-button">Terms & Conditions</a>
+                    </p>
+                </nav>
+                <nav aria-label="Social media links">
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/abdullah-nawaz-627298344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" aria-label="Connect with Abdullah Nawaz on LinkedIn (opens in new tab)">
+                            LinkedIn
+                        </a>
+                        <a href="https://discord.gg/pK9kKNqT7c" target="_blank" rel="noopener noreferrer" aria-label="Join Abdullah Nawaz's Discord server (opens in new tab)">
+                            Discord
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
