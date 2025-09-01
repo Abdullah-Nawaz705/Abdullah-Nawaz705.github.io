@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio & Professional Experience - Abdullah Nawaz</title>
-    <meta name="description" content="Showcasing Abdullah Nawaz's expertise in digital accessibility consulting, manual screen reader testing, and WCAG compliance.">
+    <meta name="description" content="Showcasing Abdullah Nawaz's portfolio in software development and digital accessibility consulting, with expertise in manual screen reader testing and WCAG compliance.">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <header role="banner">
+    <header>
         <div class="container">
             <div class="logo">
                 <a href="index.html" aria-label="Abdullah Nawaz - Return to homepage">Abdullah Nawaz</a>
             </div>
-            <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-controls="main-navigation" aria-expanded="false">
-                <span class="sr-only">Toggle</span>
+            <button class="nav-toggle" type="button" aria-label="Menu" aria-controls="main-navigation" aria-expanded="false">
                 <span class="hamburger"></span>
             </button>
             <nav id="main-navigation" aria-label="Main site navigation">
@@ -37,60 +36,49 @@
 
     <main id="main-content" tabindex="-1">
         <div class="container">
-            <header>
+            <header class="hero-section">
                 <h1>Portfolio & Professional Experience</h1>
-                <p>This portfolio demonstrates my deep commitment to digital accessibility and showcases the unique expertise I bring to every project. My work focuses on creating truly inclusive digital experiences that go beyond mere compliance.</p>
+                <p class="hero-description">This portfolio demonstrates my deep commitment to digital accessibility and the unique expertise I bring to every project. My work focuses on creating genuinely inclusive digital experiences that go beyond mere compliance.</p>
             </header>
 
             <div class="portfolio-grid">
                 <section class="portfolio-item card" aria-labelledby="glasgow-heading">
-                    <h2 id="glasgow-heading">Accessibility Consultant Collaboration — University of Glasgow</h2>
-                    <p>I contributed as an accessibility consultant for the University of Glasgow, focusing on enhancing digital accessibility for blind users. My work centered on testing and improving the compatibility of accessibility software with MathJax and <abbr title="LaTeX to HTML">LaTeX-to-HTML</abbr> conversions, ensuring that complex mathematical content is rendered clearly in <abbr title="Unified English Braille">UEB</abbr> braille for HumanWare devices such as the Braille Note Touch Plus.</p>
-                    <p>This project involved in-depth accessibility testing, feedback, and collaboration with software developers to refine accessibility tools that bridge the gap between technical academic content and screen reader/braille device compatibility. My role aimed to promote inclusive education by enabling seamless access to mathematical content for blind students and researchers.</p>
-                    <p>The collaboration also opened avenues for future partnerships, including potential contributions to open-source accessibility projects and ongoing development of accessible content for higher education environments.</p>
+                    <h2 id="glasgow-heading">Accessibility Consultant — University of Glasgow Collaboration</h2>
+                    <p>As an accessibility consultant for the University of Glasgow, I focused on enhancing digital access for blind users. My work involved rigorous testing to improve the compatibility of accessibility software with MathJax and LaTeX-to-HTML conversions, ensuring complex mathematical content renders clearly in Unified English Braille (UEB) for HumanWare devices like the BrailleNote Touch Plus.</p>
+                    <p>This project required deep collaboration with developers to refine tools that bridge the gap between technical academic content and assistive technology. My role helped promote inclusive education by enabling seamless access to STEM materials for blind students and researchers.</p>
                 </section>
 
                 <section class="credentials card" aria-labelledby="background-heading">
                     <h2 id="background-heading">Professional Background</h2>
-                    <p>As a blind individual who has navigated the digital world using screen readers for over a decade, I bring an authentic and irreplaceable perspective to accessibility consulting. My daily dependence on assistive technologies, combined with my technical education in <strong>Cybersecurity</strong>, provides unique insights into what genuinely makes digital content accessible and usable.</p>
+                    <p>As a blind individual who has navigated the digital world using screen readers for over a decade, I bring an authentic and irreplaceable perspective to accessibility. My daily dependence on assistive technologies, combined with my technical education in <strong>Software Development</strong>, provides unique insights into what genuinely makes digital content accessible.</p>
                     
                     <dl>
-                        <dt><strong>Educational background:</strong></dt>
-                        <dd>Cybersecurity student with specialized focus on inclusive design and accessibility technology.</dd>
+                        <dt><strong>Educational Background:</strong></dt>
+                        <dd>Software Development student with a specialized focus on inclusive design and accessibility.</dd>
                         
-                        <dt><strong>Real-world experience:</strong></dt>
-                        <dd>10+ years of daily screen reader usage across web, mobile, and desktop platforms.</dd>
+                        <dt><strong>Lived Experience:</strong></dt>
+                        <dd>10+ years of daily, expert-level screen reader usage across web, mobile, and desktop platforms.</dd>
                     </dl>
                 </section>
 
                 <section class="skills-section card" aria-labelledby="assistive-tech-heading">
                     <h2 id="assistive-tech-heading">Assistive Technology Expertise</h2>
+                    <p>I perform all manual testing using the latest versions of the most common screen reader and platform combinations.</p>
                     <ul>
-                        <li><strong><abbr title="NonVisual Desktop Access">NVDA</abbr> (Windows):</strong> Expert-level proficiency with advanced navigation techniques, custom configuration, and developer tools integration.</li>
-                        <li><strong>VoiceOver (<abbr title="iOS">iOS</abbr>):</strong> Comprehensive knowledge of mobile testing methodologies, gesture navigation, and accessibility shortcuts.</li>
-                        <li><strong>Platform specialization:</strong> Focused expertise on the two most widely used screen reading platforms for comprehensive accessibility testing.</li>
-                        <li><strong>Real-world usage patterns:</strong> Understanding of how users actually navigate digital content in daily use scenarios.</li>
+                        <li><strong>NVDA on Windows:</strong> Expert-level proficiency with advanced navigation, custom configuration, and developer tools integration.</li>
+                        <li><strong>VoiceOver on iOS:</strong> Comprehensive testing on Apple mobile devices, covering gesture navigation and accessibility APIs.</li>
+                        <li><strong>TalkBack on Android:</strong> Thorough testing on the Android platform, ensuring a consistent and usable experience for its user base.</li>
                     </ul>
                 </section>
 
                 <section class="skills-section card" aria-labelledby="technical-knowledge-heading">
-                    <h2 id="technical-knowledge-heading">Technical Knowledge & Standards</h2>
+                    <h2 id="technical-knowledge-heading">Technical Skills & Standards</h2>
                     <ul>
-                        <li><strong><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 & 2.2:</strong> Comprehensive understanding of success criteria, techniques, and practical implementation.</li>
-                        <li><strong><abbr title="Accessible Rich Internet Applications">ARIA</abbr> (<abbr title="Web Accessibility Initiative - Accessible Rich Internet Applications">WAI-ARIA</abbr>):</strong> Advanced knowledge of proper implementation, common pitfalls, and best practices.</li>
-                        <li><strong>Semantic <abbr title="HyperText Markup Language">HTML</abbr>:</strong> Expertise in creating accessible markup that works seamlessly with assistive technologies.</li>
-                        <li><strong>Accessibility testing methodologies:</strong> Both manual and automated testing approaches, with emphasis on user experience validation.</li>
-                        <li><strong>Legal compliance:</strong> Understanding of <abbr title="Americans with Disabilities Act">ADA</abbr>, Section 508, <abbr title="Accessibility for Ontarians with Disabilities Act">AODA</abbr>, and international accessibility legislation.</li>
-                        <li><strong>Cybersecurity Fundamentals:</strong> Awareness of secure coding practices and data privacy considerations in accessibility solutions.</li>
-                    </ul>
-                </section>
-
-                <section class="skills-section card" aria-labelledby="industry-knowledge-heading">
-                    <h2 id="industry-knowledge-heading">Industry Knowledge & Approach</h2>
-                    <ul>
-                        <li><strong>User-centered design:</strong> Focus on actual user needs rather than just technical compliance.</li>
-                        <li><strong>Inclusive design principles:</strong> Understanding how accessibility benefits all users, not just those with disabilities.</li>
-                        <li><strong>Development integration:</strong> Knowledge of how accessibility fits into modern development workflows and <abbr title="Continuous Integration/Continuous Deployment">CI/CD</abbr> processes.</li>
+                        <li><strong>WCAG 2.1 & 2.2:</strong> Deep understanding of success criteria, techniques, and practical implementation.</li>
+                        <li><strong>WAI-ARIA:</strong> Advanced knowledge of proper ARIA implementation, common pitfalls, and best practices for dynamic web applications.</li>
+                        <li><strong>Semantic HTML:</strong> Expertise in creating accessible, structured markup that works flawlessly with assistive technologies.</li>
+                        <li><strong>Accessibility Testing:</strong> Manual and automated testing methodologies with a strong emphasis on user experience validation.</li>
+                        <li><strong>Legal & Global Standards:</strong> Familiarity with ADA, Section 508, AODA, and EN 301 549.</li>
                     </ul>
                 </section>
             </div>
@@ -98,37 +86,35 @@
             <aside class="testimonial card" aria-labelledby="approach-heading">
                 <h2 id="approach-heading">My Approach to Accessibility</h2>
                 <blockquote>
-                    <p><strong>"I don't just test for accessibility compliance—I test for genuine usability. There's a crucial difference between something that technically meets <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> standards and something that actually provides an excellent user experience for people with disabilities. My goal is to help you achieve both."</strong></p>
+                    <p><strong>"I don't just check for compliance—I test for genuine usability. There's a huge difference between a site that technically meets WCAG and one that's actually a great experience for a disabled person. My goal is to help you achieve both."</strong></p>
                     <cite>— Abdullah Nawaz, Accessibility Consultant</cite>
                 </blockquote>
             </aside>
 
             <section class="commitment-section card" aria-labelledby="commitment-heading">
-                <h2 id="commitment-heading">Commitment to Excellence</h2>
-                <p>Every project I undertake reflects my dedication to creating digital experiences that truly work for everyone. I believe accessibility isn't just about avoiding legal liability—it's about recognizing that inclusive design creates better experiences for all users while opening your digital products to a broader audience.</p>
-                <p><strong>My mission:</strong> To help organizations create digital products that users with disabilities don't just tolerate, but genuinely enjoy using. When accessibility is done right, it becomes invisible—it simply works.</p>
+                <h2 id="commitment-heading">My Mission</h2>
+                <p>My mission is to help organizations build digital products that users with disabilities don't just tolerate, but genuinely enjoy using. Accessibility isn't about avoiding lawsuits; it's about creating better products for everyone and expanding your audience. When done right, accessibility is invisible—it simply works.</p>
             </section>
         </div>
     </main>
 
-    <footer role="contentinfo">
+    <footer>
         <div class="container">
             <div class="footer-content">
-                <p>&copy; <span id="current-year" aria-label="Current year">2025</span> Abdullah Nawaz - Professional Accessibility Consultant</p>
-                <p>Committed to creating inclusive digital experiences for everyone</p>
+                <p>&copy; <span id="current-year">2025</span> Abdullah Nawaz - Software Development & Accessibility Consulting</p>
                 <nav aria-label="Footer navigation">
-                    <p>
-                        <a href="accessibility.html" class="footer-link-button">View Accessibility Statement</a> |
-                        <a href="privacy.html" class="footer-link-button">Privacy Policy</a> |
-                        <a href="terms.html" class="footer-link-button">Terms & Conditions</a>
-                    </p>
+                    <ul class="footer-links">
+                        <li><a href="accessibility.html" class="footer-link-button">Accessibility Statement</a></li>
+                        <li><a href="privacy.html" class="footer-link-button">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="footer-link-button">Terms & Conditions</a></li>
+                    </ul>
                 </nav>
                 <nav aria-label="Social media links">
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/abdullah-nawaz-627298344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" aria-label="Connect with Abdullah Nawaz on LinkedIn (opens in new tab)">
+                        <a href="https://www.linkedin.com/in/abdullah-nawaz-627298344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)">
                             LinkedIn
                         </a>
-                        <a href="https://discord.gg/pK9kKNqT7c" target="_blank" rel="noopener noreferrer" aria-label="Join Abdullah Nawaz's Discord server (opens in new tab)">
+                        <a href="https://discord.gg/pK9kKNqT7c" target="_blank" rel="noopener noreferrer" aria-label="Discord (opens in new tab)">
                             Discord
                         </a>
                     </div>
