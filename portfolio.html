@@ -11,12 +11,13 @@
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <header>
+    <header role="banner">
         <div class="container">
             <div class="logo">
                 <a href="index.html" aria-label="Abdullah Nawaz - Return to homepage">Abdullah Nawaz</a>
             </div>
-            <button class="nav-toggle" type="button" aria-label="Menu" aria-controls="main-navigation" aria-expanded="false">
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-controls="main-navigation" aria-expanded="false">
+                <span class="sr-only">Toggle</span>
                 <span class="hamburger"></span>
             </button>
             <nav id="main-navigation" aria-label="Main site navigation">
@@ -24,11 +25,9 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
-                    <li><a href="faq.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="accessibility.html">Accessibility</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms & Conditions</a></li>
                 </ul>
             </nav>
         </div>
@@ -98,23 +97,24 @@
         </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; <span id="current-year">2025</span> Abdullah Nawaz - Software Development & Accessibility Consulting</p>
+                <p>&copy; <span id="current-year">2025</span> Abdullah Nawaz - Professional Accessibility Consultant</p>
+                <p>Committed to creating inclusive digital experiences for everyone</p>
                 <nav aria-label="Footer navigation">
-                    <ul class="footer-links">
-                        <li><a href="accessibility.html" class="footer-link-button">Accessibility Statement</a></li>
-                        <li><a href="privacy.html" class="footer-link-button">Privacy Policy</a></li>
-                        <li><a href="terms.html" class="footer-link-button">Terms & Conditions</a></li>
-                    </ul>
+                    <p>
+                        <a href="accessibility.html" class="footer-link-button">View Accessibility Statement</a> |
+                        <a href="privacy.html" class="footer-link-button">Privacy Policy</a> |
+                        <a href="terms.html" class="footer-link-button">Terms & Conditions</a>
+                    </p>
                 </nav>
                 <nav aria-label="Social media links">
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/abdullah-nawaz-627298344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)">
+                        <a href="https://www.linkedin.com/in/abdullah-nawaz-627298344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" aria-label="Connect with Abdullah Nawaz on LinkedIn (opens in new tab)">
                             LinkedIn
                         </a>
-                        <a href="https://discord.gg/pK9kKNqT7c" target="_blank" rel="noopener noreferrer" aria-label="Discord (opens in new tab)">
+                        <a href="https://discord.gg/pK9kKNqT7c" target="_blank" rel="noopener noreferrer" aria-label="Join Abdullah Nawaz's Discord server (opens in new tab)">
                             Discord
                         </a>
                     </div>
