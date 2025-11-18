@@ -25,11 +25,9 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="faq.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+                    <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="accessibility.html" aria-current="page">Accessibility</a></li>
-                    <li><a href="privacy.html">Privacy Policy</a></li>
-                    <li><a href="terms.html">Terms & Conditions</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,116 +35,99 @@
 
     <main id="main-content" tabindex="-1">
         <div class="container">
-            <article>
-                <header>
-                    <h1>Accessibility Statement</h1>
-                    <p><strong>Last Updated: <time datetime="2025-07-26">July 26, 2025</time></strong></p>
-                </header>
+            <header class="hero-section">
+                <h1>Accessibility Statement</h1>
+                <p><strong>Last Updated: <time datetime="2025-07-26">July 26, 2025</time></strong></p>
+                <p class="hero-description">I am committed to ensuring digital accessibility for people with disabilities. I am continually improving the user experience for everyone and applying the relevant accessibility standards.</p>
+            </header>
 
-                <p>Abdullah Nawaz is committed to ensuring digital accessibility for people with disabilities. I am continually improving the user experience for everyone and applying the relevant accessibility standards.</p>
+            <section class="card" aria-labelledby="commitment-heading">
+                <h2 id="commitment-heading">My Commitment</h2>
+                <p>As a professional accessibility consultant, I believe that accessibility is not just a professional requirement but a fundamental right. This website has been designed and developed to meet or exceed <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 Level AA standards, with AAA implementation where feasible.</p>
+            </section>
 
-                <section class="card" aria-labelledby="commitment-heading">
-                    <h2 id="commitment-heading">Our Commitment</h2>
-                    <p>As a professional accessibility consultant, I believe that accessibility is not just a professional requirement but a fundamental right. This website has been designed and developed to meet or exceed <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 Level AA standards, with AAA implementation where feasible.</p>
-                </section>
+            <section class="card" aria-labelledby="conformance-heading">
+                <h2 id="conformance-heading">Conformance Status</h2>
+                <p>The Web Content Accessibility Guidelines (WCAG) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.</p>
+                
+                <p><strong>This website is fully conformant with WCAG 2.1 Level AA.</strong> "Fully conformant" means that the content fully meets the accessibility standard without any exceptions.</p>
+                
+                <p>Additionally, this website incorporates several Level AAA techniques where practical and beneficial to users.</p>
+            </section>
 
-                <section class="card" aria-labelledby="conformance-heading">
-                    <h2 id="conformance-heading">Conformance Status</h2>
-                    <p>The <abbr title="Web Content Accessibility Guidelines">Web Content Accessibility Guidelines (WCAG)</abbr> defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA.</p>
-                    
-                    <p><strong>This website is fully conformant with <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.1 Level AA.</strong> "Fully conformant" means that the content fully meets the accessibility standard without any exceptions.</p>
-                    
-                    <p>Additionally, this website incorporates several Level AAA techniques where practical and beneficial to users.</p>
-                </section>
+            <section class="card" aria-labelledby="measures-heading">
+                <h2 id="measures-heading">Accessibility Features</h2>
+                <p>This website includes the following accessibility features:</p>
+                
+                <ul>
+                    <li><strong>Keyboard Navigation:</strong> All interactive elements are accessible via keyboard navigation.</li>
+                    <li><strong>Screen Reader Support:</strong> Comprehensive <abbr title="Accessible Rich Internet Applications">ARIA</abbr> labeling and semantic markup.</li>
+                    <li><strong>High Contrast:</strong> Color combinations meet or exceed WCAG AA contrast requirements.</li>
+                    <li><strong>Responsive Design:</strong> Content adapts to different screen sizes and zoom levels up to 200%.</li>
+                    <li><strong>Clear Navigation:</strong> Consistent navigation structure with skip links.</li>
+                    <li><strong>Alternative Text:</strong> All images include appropriate alternative text descriptions.</li>
+                    <li><strong>Focus Indicators:</strong> Clear visual focus indicators for keyboard users.</li>
+                    <li><strong>Readable Content:</strong> Clear language, logical heading structure, and sufficient white space.</li>
+                    <li><strong>Form Accessibility:</strong> Proper labels, error identification, and instructions.</li>
+                    <li><strong>Reduced Motion:</strong> Respects user preferences for reduced motion.</li>
+                </ul>
+            </section>
 
-                <section class="card" aria-labelledby="measures-heading">
-                    <h2 id="measures-heading">Accessibility Features</h2>
-                    <p>This website includes the following accessibility features:</p>
-                    
-                    <ul>
-                        <li><strong>Keyboard Navigation:</strong> All interactive elements are accessible via keyboard navigation</li>
-                        <li><strong>Screen Reader Support:</strong> Comprehensive <abbr title="Accessible Rich Internet Applications">ARIA</abbr> labeling and semantic markup</li>
-                        <li><strong>High Contrast:</strong> Color combinations meet or exceed <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> AA contrast requirements</li>
-                        <li><strong>Responsive Design:</strong> Content adapts to different screen sizes and zoom levels up to 200%</li>
-                        <li><strong>Clear Navigation:</strong> Consistent navigation structure with skip links</li>
-                        <li><strong>Alternative Text:</strong> All images include appropriate alternative text descriptions</li>
-                        <li><strong>Focus Indicators:</strong> Clear visual focus indicators for keyboard users</li>
-                        <li><strong>Readable Content:</strong> Clear language, logical heading structure, and sufficient white space</li>
-                        <li><strong>Form Accessibility:</strong> Proper labels, error identification, and instructions</li>
-                        <li><strong>Reduced Motion:</strong> Respects user preferences for reduced motion</li>
-                    </ul>
-                </section>
+            <section class="card" aria-labelledby="testing-heading">
+                <h2 id="testing-heading">Testing Methods</h2>
+                <p>This website has been tested using:</p>
+                
+                <ul>
+                    <li><strong>Manual Testing:</strong> Comprehensive keyboard navigation and screen reader testing.</li>
+                    <li><strong>Assistive Technologies:</strong> Testing with <abbr title="NonVisual Desktop Access">NVDA</abbr> on Windows, VoiceOver on iOS/Mac, and TalkBack on Android.</li>
+                    <li><strong>Automated Tools:</strong> Regular testing with accessibility scanning tools.</li>
+                    <li><strong>Real Users:</strong> As a screen reader user myself, I regularly test all functionality.</li>
+                    <li><strong>Code Review:</strong> Manual code review for semantic markup and ARIA implementation.</li>
+                </ul>
+            </section>
 
-                <section class="card" aria-labelledby="testing-heading">
-                    <h2 id="testing-heading">Testing Methods</h2>
-                    <p>This website has been tested using:</p>
-                    
-                    <ul>
-                        <li><strong>Manual Testing:</strong> Comprehensive keyboard navigation and screen reader testing</li>
-                        <li><strong>Assistive Technologies:</strong> Testing with <abbr title="NonVisual Desktop Access">NVDA</abbr>, VoiceOver, and other screen readers</li>
-                        <li><strong>Automated Tools:</strong> Regular testing with accessibility scanning tools</li>
-                        <li><strong>Real Users:</strong> As a screen reader user myself, I regularly test all functionality</li>
-                        <li><strong>Code Review:</strong> Manual code review for semantic markup and <abbr title="Accessible Rich Internet Applications">ARIA</abbr> implementation</li>
-                    </ul>
-                </section>
+            <section class="card" aria-labelledby="limitations-heading">
+                <h2 id="limitations-heading">Known Limitations</h2>
+                <p>Despite my best efforts to ensure accessibility, there may be some limitations. Currently, I am not aware of any content that is not accessible. If you discover any accessibility barriers, please contact me immediately.</p>
+            </section>
 
-                <section class="card" aria-labelledby="limitations-heading">
-                    <h2 id="limitations-heading">Known Limitations</h2>
-                    <p>Despite our best efforts to ensure accessibility, there may be some limitations. Currently, we are not aware of any content that is not accessible. If you discover any accessibility barriers, please contact us immediately.</p>
-                </section>
+            <section class="card" aria-labelledby="feedback-heading">
+                <h2 id="feedback-heading">Feedback and Contact Information</h2>
+                <p>I welcome your feedback on the accessibility of this website. If you encounter any accessibility barriers or have suggestions for improvement, please contact me:</p>
+                
+                <address>
+                    <strong>Email:</strong> <a href="mailto:abdullahnawaz1899@gmail.com" aria-label="Send accessibility feedback to Abdullah Nawaz">abdullahnawaz1899@gmail.com</a><br>
+                    <strong>Subject:</strong> Accessibility Feedback
+                </address>
+                
+                <p>I aim to respond to accessibility feedback within 2 business days.</p>
+            </section>
 
-                <section class="card" aria-labelledby="feedback-heading">
-                    <h2 id="feedback-heading">Feedback and Contact Information</h2>
-                    <p>We welcome your feedback on the accessibility of this website. If you encounter any accessibility barriers or have suggestions for improvement, please contact us:</p>
-                    
-                    <address>
-                        <strong>Email:</strong> <a href="mailto:abdullahnawaz1899@gmail.com" aria-label="Send accessibility feedback to Abdullah Nawaz">abdullahnawaz1899@gmail.com</a><br>
-                        <strong>Subject:</strong> Accessibility Feedback
-                    </address>
-                    
-                    <p>We aim to respond to accessibility feedback within 2 business days.</p>
-                </section>
+            <section class="card" aria-labelledby="technical-heading">
+                <h2 id="technical-heading">Technical Specifications</h2>
+                <p>Accessibility of this website relies on the following technologies to work with the particular combination of web browser and any assistive technologies or plugins installed on your computer:</p>
+                
+                <ul>
+                    <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+                    <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+                    <li>JavaScript</li>
+                    <li><abbr title="Web Accessibility Initiative - Accessible Rich Internet Applications">WAI-ARIA</abbr></li>
+                </ul>
+            </section>
 
-                <section class="card" aria-labelledby="technical-heading">
-                    <h2 id="technical-heading">Technical Specifications</h2>
-                    <p>Accessibility of this website relies on the following technologies to work with the particular combination of web browser and any assistive technologies or plugins installed on your computer:</p>
-                    
-                    <ul>
-                        <li><abbr title="HyperText Markup Language">HTML</abbr></li>
-                        <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
-                        <li>JavaScript</li>
-                        <li><abbr title="Web Accessibility Initiative - Accessible Rich Internet Applications">WAI-ARIA</abbr></li>
-                    </ul>
-                    
-                    <p>These technologies are relied upon for conformance with the accessibility standards used.</p>
-                </section>
-
-                <section class="card" aria-labelledby="browser-heading">
-                    <h2 id="browser-heading">Compatible Browsers and Assistive Technologies</h2>
-                    <p>This website is designed to be compatible with assistive technologies and the last two versions of major browsers:</p>
-                    
-                    <ul>
-                        <li>Chrome with <abbr title="NonVisual Desktop Access">NVDA</abbr> or VoiceOver</li>
-                        <li>Firefox with <abbr title="NonVisual Desktop Access">NVDA</abbr> or VoiceOver</li>
-                        <li>Safari with VoiceOver</li>
-                        <li>Edge with <abbr title="NonVisual Desktop Access">NVDA</abbr></li>
-                    </ul>
-                </section>
-
-                <section class="card" aria-labelledby="continuous-heading">
-                    <h2 id="continuous-heading">Continuous Improvement</h2>
-                    <p>Accessibility is an ongoing effort. We regularly review and test our website to identify and address any accessibility barriers. We are committed to making continuous improvements to ensure the best possible experience for all users.</p>
-                    
-                    <p>This accessibility statement will be updated as we make improvements and changes to the website.</p>
-                </section>
-            </article>
+            <section class="card" aria-labelledby="continuous-heading">
+                <h2 id="continuous-heading">Continuous Improvement</h2>
+                <p>Accessibility is an ongoing effort. I regularly review and test my website to identify and address any accessibility barriers. I am committed to making continuous improvements to ensure the best possible experience for all users.</p>
+                
+                <p>This accessibility statement will be updated as I make improvements and changes to the website.</p>
+            </section>
         </div>
     </main>
 
     <footer role="contentinfo">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; <span id="current-year" aria-label="Current year">2025</span> Abdullah Nawaz - Professional Accessibility Consultant</p>
+                <p>&copy; <span id="current-year">2025</span> Abdullah Nawaz - Professional Accessibility Consultant</p>
                 <p>Committed to creating inclusive digital experiences for everyone</p>
                 <nav aria-label="Footer navigation">
                     <p>
